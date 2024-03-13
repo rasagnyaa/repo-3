@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.class1{
+border: 1px solid black;
+height: 820px;
+width:1470px;
+margin-top: -7px;
+margin-left: -10px;
+background-image: url(../TASKKKKKKKK/images/kk.png);
+background-repeat:no-repeat;
+object-fit: cover;
+background-size: 100%;
+}
+.newClass{
+
+display: inline-block;
+margin-left: 250px;
+font-size: 25px;
+margin-top: -30px;
+/* position: sticky; */
+}
+a{
+ color: white;
+ position: fixed;
+}
+ 
+
+head{
+z-index: 6;
+position: absolute;
+font-style: italic;
+
+}
+head1{
+z-index: 6;
+position: absolute;
+font-style: italic;
+}
+</style>
+<body>
+   
+    <script>
+
+let div1=document.createElement("div");
+div1.setAttribute("class","class1");
+document.body.appendChild(div1);
+
+let navBar=document.createElement("nav");
+
+let ul1=document.createElement("ul");
+ul1.setAttribute("class","uu1");
+
+let li1=document.createElement("li");
+li1.setAttribute("class","newClass")
+
+
+
+let a1=document.createElement("a")
+a1.setAttribute("href","../TASKKKKKKKK/orderonline.html");
+a1.innerText="Menu"
+a1.style.textDecoration="none"
+li1.appendChild(a1);
+
+ let li2=document.createElement("li");
+ li2.setAttribute("class","newClass")
+let a2=document.createElement("a")
+a2.style.textDecoration="none"
+ a2.setAttribute("href","../TASKKKKKKKK/menupage.html");
+ a2.innerText="orderonline"
+ li2.appendChild(a2);
+
+let li3=document.createElement("li");
+
+li3.setAttribute("class","newClass")
+let a3=document.createElement("a")
+a3.setAttribute("href","../TASKKKKKKKK/loginpage.html");
+a3.innerText="payment"
+a3.style.textDecoration="none"
+li3.appendChild(a3);
+///////////////
+let li4=document.createElement("li");
+
+li4.setAttribute("class","newClass")
+
+let a4=document.createElement("a")
+a4.setAttribute("href","../TASKKKKKKKK/loginpage.html");
+a4.innerText="Login"
+a4.style.textDecoration="none"
+li4.appendChild(a4);
+///////////
+let li5=document.createElement("li");
+
+li5.setAttribute("class","newClass")
+let a5=document.createElement("a")
+a5.setAttribute("href","../TASKKKKKKKK/loginpage.html");
+a5.innerText="Sign Up"
+a5.style.textDecoration="none"
+li5.appendChild(a5);
+
+div1.appendChild(navBar);
+navBar.appendChild(ul1);
+ul1.appendChild(li1);
+ul1.appendChild(li2);
+ul1.appendChild(li3);
+ul1.appendChild(li4);
+ul1.appendChild(li5);
+ //////////////////////////////
+
+ let head=document.createElement("h1");
+head.innerText="Ice-Cream"
+head.style.fontSize="100px"
+head.style.marginLeft="500px"
+head.style.marginTop="300px"
+head.style.color="white"
+head.style.fontStyle="italic"
+div1.appendChild(head);
+/////////////
+// let head1=document.createElement("h1");
+// head1.innerText="(To My Fav❤️)"
+// head1.style.fontSize="30px"
+// head1.style.marginLeft="850px"
+// head1.style.marginTop="-85px"
+// head1.style.color="white"
+// head1.style.fontStyle="italic"
+// head1.style.position="absolute"
+// head1.style.zIndex="6"
+// div1.appendChild(head1);
+
+    </script>
+</body>
+</html>

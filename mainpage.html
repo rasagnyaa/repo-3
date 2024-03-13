@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.class1,.class2{
+margin-left: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 5rem;
+}
+.class1{
+background-size: 100%;
+    background-image: url(../TASKKKKKKKK/images/pexels-olena-bohovyk-3883858.jpg);
+}
+.class2{
+
+background-size: 100%;
+    background-image: url(../TASKKKKKKKK/images/shopping1.jpeg);
+    margin-left: 900px;
+}
+.lgp{
+
+position: absolute;
+margin-top: 450px;
+font-size: 30px;
+text-decoration: none;
+margin-left: 150px;
+color: rgb(215, 151, 151);
+border: 1px solid rgb(26, 25, 25);
+width: 150px;
+text-align: center;
+
+background-position:fixed ;
+}
+
+</style>
+<body>
+    <script>
+
+let div1=document.createElement("div")
+div1.style.border="1px solid white"
+div1.style.height="800px"
+div1.style.width="1450px"
+document.body.appendChild(div1);
+
+
+let div2=document.createElement("div");
+div2.style.border="1px solid white"
+div2.setAttribute("class","class1");
+div2.style.height="400px"
+div2.style.width="500px"
+// let a1=document.createElement("a");
+//  a1.setAttribute("href","../TASKKKKKKKK/resturanttask.html");
+let anchor1=document.createElement("a");
+anchor1.setAttribute("href","../TASKKKKKKKK/resturanttask.html");
+anchor1.setAttribute("class","lgp");
+anchor1.innerText="Enter"
+div2.appendChild(anchor1);
+
+div1.appendChild(div2);
+
+
+let div3=document.createElement("div")
+div3.setAttribute("class","class2")
+div3.style.border="1px solid white"
+div3.style.height="400px"
+div3.style.width="500px"
+let anchor2=document.createElement("a");
+anchor2.setAttribute("href","../TASKKKKKKKK/task2.html");
+anchor2.setAttribute("class","lgp");
+anchor2.innerText="Enter"
+
+
+div3.appendChild(anchor2);
+div1.appendChild(div3);
+
+
+
+
+
+    </script>
+</body>
+</html>

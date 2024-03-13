@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+<style>
+    .sg{
+border: 1px solid black;
+margin-top: 155px;
+text-align: center;
+position: absolute;
+margin-left: -255px;
+text-decoration: none;
+color:  rgb(146, 152, 152);;
+height: 40px;
+width:200px;
+background-color: aliceblue;
+font-size: 30px;
+border: 1px solid aliceblue;
+border-radius: 1rem;
+opacity: px;
+    }
+    .class1{
+display: flex;
+justify-content: center;
+background-image: url(../TASKKKKKKKK/images/sf.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+margin-top: -10px;
+
+}
+ .class2{
+margin-top: 100px;
+/* border:1px solid  rgb(137, 197, 197);; */
+border-radius: 2rem;
+box-shadow: 10px 10px 10px 20px rgba(69, 66, 66, 0.482); ;
+/* background-color: rgb(137, 167, 167); */
+
+}
+.sg:hover{
+background-color: gray;
+
+}
+.button1{
+height: 50px;
+width:200px;
+margin-top: 80px;
+margin-left: 200px;
+font-size: 30px;
+/* border: 1px solid rgb(137, 197, 197); */
+border-radius: 1rem;
+}
+.lgp{
+color: white;
+margin-left: 235px;
+font-size: 20px;
+text-decoration: none;
+}
+</style>
+<body>
+    
+    <script>
+
+
+let div1=document.createElement("div");
+div1.setAttribute("class","class1")
+div1.style.border="1px solid white"
+div1.style.height="800px"
+div1.style.width="1460px"
+
+document.body.appendChild(div1);
+let div2=document.createElement("div");
+
+div2.setAttribute("class","class2")
+
+div2.style.height="600px"
+div2.style.width="500px"
+
+div1.appendChild(div2);
+////////form////////////
+let frm=document.createElement("form");
+document.body.appendChild(frm);
+
+let inp=document.createElement("input")
+inp.style.height="50px"
+
+inp.style.width="300px"
+inp.style.marginTop="90px"
+inp.style.marginLeft="100px"
+inp.setAttribute("type","text");
+inp.setAttribute("placeholder","Enter your Email")
+inp.style.fontSize="20px"
+inp.style.border="aqua"
+inp.style.textAlign="center"
+div2.appendChild(inp);
+////////////enterpswd////////////////
+let inp1=document.createElement("input")
+inp1.style.height="50px"
+inp1.style.width="300px"
+inp1.style.marginTop="50px"
+inp1.style.border=" rgb(137, 197, 197)"
+inp1.style.marginLeft="100px"
+inp1.setAttribute("type","text");
+inp1.setAttribute("placeholder","Enter password")
+
+
+inp1.style.fontSize="20px"
+inp1.style.textAlign="center"
+div2.appendChild(inp1);
+///////////////////////////////////
+let inp2=document.createElement("input")
+inp2.style.height="50px"
+inp2.style.width="300px"
+inp2.style.marginTop="50px"
+inp2.style.border=" rgb(137, 197, 197);"
+inp2.style.marginLeft="100px"
+inp2.setAttribute("type","text");
+inp2.setAttribute("placeholder","Confirm password")
+inp2.style.border=" 1px solid rgb(137, 197, 197)"
+
+inp2.style.fontSize="20px"
+inp2.style.textAlign="center"
+div2.appendChild(inp2);
+// let btn=document.createElement("button")
+// btn.innerText="sign up"
+// btn.setAttribute("class","button1")
+
+// div2.appendChild(btn);
+// /////////////////
+let anchh=document.createElement("a");
+anchh.innerText="Sign up"
+anchh.setAttribute("class","sg")
+anchh.setAttribute("href","../TASKKKKKKKK/loginpage.html")
+div2.appendChild(anchh);
+let para=document.createElement("p");
+para.innerText="Already have an Account?"
+para.style.marginLeft="145px"
+para.style.fontSize="20px"
+para.style.color="white"
+para.style.fontWeight="bold"
+para.style.marginTop="130px"
+div2.appendChild(para);
+//////////////////////
+// let anch1=document.createElement("a");
+// anch1.innerText="Log in"
+// anch1.style.fontWeight="bold"
+// para1.style.marginLeft="255px"
+// para1.style.fontSize="30px"
+// para1.style.color="white"
+// para1.style.marginTop="50px"
+// div2.appendChild(para1);
+let anchor=document.createElement("a");
+anchor.setAttribute("href","../TASKKKKKKKK/loginpage.html")
+anchor.setAttribute("class","lgp")
+
+anchor.innerText="log in"
+div2.appendChild(anchor);
+let heading=document.createElement("h1");
+heading.innerText="Sign Up"
+heading.style.marginTop="-540px"
+heading.style.marginLeft="190px"
+heading.style.color="white"
+heading.style.fontWeight="lighter"
+heading.style.fontSize="40px"
+div2.appendChild(heading)
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

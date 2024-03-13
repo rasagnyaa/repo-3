@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #imgg{
+        height: 100px;
+        width: 150px;
+        margin-left: 1900px;
+        margin-top: -150px;
+        position: absolute;
+      }
+      #sig{
+height: 50px;
+width: 150px;
+margin-left: 150px;
+margin-top: -70px;
+position: absolute;
+      }
+    </style>
+</head>
+
+<body>
+  
+  <script>
+var nme=document.createElement("h1");
+console.log(nme);
+nme.innerText="Rasagnya.kannuri"
+nme.style.fontSize="30px"
+nme.style.textAlign="center"
+document.body.appendChild(nme);
+/////////////email///////////////////
+var eml=document.createElement("p");
+console.log(eml);
+eml.innerText="Email:rasagnyakannuri@gmail.com"
+eml.style.fontSize="25px"
+eml.style.textAlign="center"
+document.body.appendChild(eml);
+////////////////number////////////////
+var num=document.createElement("p");
+console.log(num);
+num.innerText="Contact:9100398788"
+num.style.fontSize="25px"
+num.style.textAlign="center"
+document.body.appendChild(num);
+/////////////////img/////////////
+var imgg=document.createElement("img");
+imgg.setAttribute("src","data:image/png;base64,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")
+imgg.setAttribute("id","imgg")
+document.body.appendChild(imgg);
+
+/////////////firldset////////////////
+var fld=document.createElement("fieldset");
+  fld.innerText="Seeking a challenging position in industry where I can utilize my skills to contribute to the success of the company."
+  console.log(fld);
+  fld.style.marginTop="100px"
+  fld.style.fontSize="30px"
+  ////////////legend/////////////
+  var lgnd=document.createElement("legend");
+  lgnd.textContent="Career Objective"
+   console.log(lgnd);
+  lgnd.style.fontSize="40px"
+  fld.appendChild(lgnd);
+  var bdy=document.createElement("body");
+  bdy.appendChild(fld);
+  document.body.appendChild(fld);
+ //////////////technical//////////////////
+  var fld1=document.createElement("fieldset");
+ var unord=document.createElement("ul");
+
+var li1=document.createElement("li")
+li1.innerText="HTML"
+li1.style.fontSize="30px"
+var li2=document.createElement("li")
+li2.innerText="CSS"
+li2.style.fontSize="30px"
+var li3=document.createElement("li")
+li3.innerText="JAVA SCRIPT"
+li3.style.fontSize="30px"
+var li4=document.createElement("li")
+li4.innerText="SQL"
+li4.style.fontSize="30px"
+fld1.appendChild(unord);
+unord.appendChild(li1);
+unord.appendChild(li2);
+unord.appendChild(li3);
+unord.appendChild(li4);
+var lgndd1=document.createElement("legend");
+  lgndd1.innerText="Technical skills"
+
+   console.log(lgndd1);
+  lgndd1.style.fontSize="40px"
+  lgndd1.style.marginTop="-50px"
+  fld1.appendChild(lgndd1);
+  var bdy=document.createElement("body");
+  bdy.appendChild(fld1);
+  document.body.appendChild(fld1);
+
+ ////////////////////hobbies/////////////////////
+
+ var fld1=document.createElement("fieldset");
+ var unord=document.createElement("ul");
+
+var li1=document.createElement("li")
+li1.innerText="Watching tv"
+li1.style.fontSize="30px"
+var li2=document.createElement("li")
+li2.innerText="lisenting music"
+li2.style.fontSize="30px"
+fld1.appendChild(unord);
+unord.appendChild(li1);
+unord.appendChild(li2);
+
+var lgndd1=document.createElement("legend");
+  lgndd1.innerText="Hobbies"
+
+   console.log(lgndd1);
+  lgndd1.style.fontSize="40px"
+  lgndd1.style.marginTop="-50px"
+  fld1.appendChild(lgndd1);
+  var bdy=document.createElement("body");
+  bdy.appendChild(fld1);
+  document.body.appendChild(fld1);
+///////////////declaration///////////////
+var heading=document.createElement("h1")
+heading.innerText="Declaration :"
+heading.style.border="0.5px solid black"
+heading.style.height="120px"
+
+heading.style.fontWeight="lighter"
+
+console.log(heading);
+document.body.appendChild(heading);
+
+ var divcr=document.createElement("div");
+divcr.innerText="I here by declare the above information is true"
+divcr.style.fontSize="larger"
+divcr.style.marginTop="-80px"
+divcr.style.marginLeft="35px"
+divcr.style.fontSize="30px"
+document.body.appendChild(divcr)
+///////////////////////////////////////////////////
+var names=document.createElement("h3");
+names.innerText="Name : k.Rasagnya"
+names.style.marginTop="50px"
+names.style.fontSize="30px"
+names.style.fontFamily="Verdana, Geneva, Tahoma, sans-serif;"
+console.log(names);
+document.body.appendChild(names);
+var   date=document.createElement("h3");
+date.innerText="Date : 20/02/24"
+date.style.fontSize="30px"
+date.style.marginTop="0px"
+date.style.fontFamily="Verdana, Geneva, Tahoma, sans-serif;"
+console.log(date);
+document.body.appendChild(date);
+var   signature=document.createElement("h3");
+signature.innerText="signature :"
+signature.style.marginTop="0px"
+signature.style.fontSize="30px"
+signature.style.fontFamily="Verdana, Geneva, Tahoma, sans-serif;"
+console.log(signature);
+document.body.appendChild(signature);
+var   imggg=document.createElement("img");
+imggg.setAttribute("src","../TASKKKKKKKK/images/rassu sign.jpg")
+imggg.setAttribute("id","sig")
+console.log(imggg);
+document.body.appendChild(imggg);
+  </script>  
+</body>
+</html>

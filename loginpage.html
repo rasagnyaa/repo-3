@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        .class1{
+background-image: url(../TASKKKKKKKK/images/strawberry_chocolate_chip_gelato_Recipe.jpg);
+position: fixed;
+background-size: 100%;
+width: 1470px;
+height: 1000px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: -10px;
+
+/* background-attachment: fixed; */
+
+        }
+        .lgp{
+
+position: absolute;
+margin-top: 150px;
+font-size: 20px;
+text-decoration: none;
+margin-left: -250px;
+color: gray;
+border: 1px solid white;
+width: 200px;
+text-align: center;
+background-color: aliceblue;
+background-position:fixed ;
+}
+ .class1{
+display: flex;
+justify-content: center;
+}
+ .class2{
+margin-top: 100px;
+border:1px solid white;
+border-radius: 2rem;
+box-shadow: 10px 10px 10px 10px rgba(69, 66, 66, 0.482); ;
+/* background-color: aqua; */
+
+}
+.button1:hover{
+background-color: gray;
+
+}
+.sgp{
+
+font-size: 20px;
+position: absolute;
+margin-top: 320px;
+margin-left: 225px;
+text-decoration: none;
+color: rgb(219, 39, 96);
+
+}
+.button1{
+height: 50px;
+width:200px;
+margin-top: 50px;
+margin-left: 200px;
+font-size: 30px;
+border: 1px solid aqua;
+border-radius: 1rem;
+}
+    </style>
+</head>
+<body>
+    <script>
+let div1=document.createElement("div");
+div1.setAttribute("class","class1")
+div1.style.border="1px solid white"
+// div1.style.height="1400px"
+// div1.style.width="1450px"
+document.body.appendChild(div1);
+let div2=document.createElement("div");
+div2.setAttribute("class","class2")
+
+
+div2.style.height="600px"
+div2.style.width="500px"
+
+div1.appendChild(div2);
+////////form////////////
+let frm=document.createElement("form");
+document.body.appendChild(frm);
+
+let inp=document.createElement("input")
+inp.style.height="50px"
+
+inp.style.width="300px"
+inp.style.marginTop="150px"
+inp.style.marginLeft="100px"
+inp.setAttribute("type","text");
+inp.setAttribute("placeholder","User Name")
+inp.style.fontSize="20px"
+inp.style.border="aqua"
+inp.style.textAlign="center"
+div2.appendChild(inp);
+////////////enterpswd////////////////
+let inp1=document.createElement("input")
+inp1.style.height="50px"
+inp1.style.width="300px"
+inp1.style.marginTop="50px"
+inp1.style.border="aqua"
+inp1.style.marginLeft="100px"
+inp1.setAttribute("type","text");
+inp1.setAttribute("placeholder","Enter password")
+
+
+inp1.style.fontSize="20px"
+inp1.style.textAlign="center"
+div2.appendChild(inp1);
+//////////////
+let anchor1=document.createElement("a");
+anchor1.setAttribute("href","../TASKKKKKKKK/mainpage.html")
+anchor1.setAttribute("class","lgp")
+
+anchor1.innerText="log in"
+div2.appendChild(anchor1);
+///////////////////////////////////
+// let btn=document.createElement("button")
+// btn.innerText="Log in"
+// btn.setAttribute("class","button1")
+// div2.appendChild(btn);
+/////////////////
+let para=document.createElement("p");
+para.innerText="Create an Account?"
+para.style.marginLeft="180px"
+para.style.fontSize="20px"
+para.style.color="rgb(219, 39, 96)"
+// para.style.fontWeight="lighter"
+para.style.marginTop="100px"
+div2.appendChild(para);
+//////////////////////
+// ght="bold"
+// para1.style.marginLeft="255px"
+// para1.style.fontSize="let para1=document.createElement("p");
+// para1.innerText="Sign Up"
+// para1.style.fontWei30px"
+// para1.style.color="white"
+// para1.style.marginTop="50px"
+// div2.appendChild(para1);
+let heading=document.createElement("h1");
+heading.innerText="Log in"
+heading.style.marginTop="-400px"
+heading.style.marginLeft="200px"
+heading.style.color="white"
+heading.style.fontWeight="lighter"
+heading.style.fontSize="40px"
+div2.appendChild(heading);
+let anchor=document.createElement("a");
+anchor.setAttribute("href","../TASKKKKKKKK/registerpage.html")
+anchor.setAttribute("class","sgp")
+anchor.innerText="Sign up"
+
+
+div2.appendChild(anchor);
+    </script>
+</body>
+</html>
