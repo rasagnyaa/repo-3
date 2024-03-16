@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+body{
+
+    background-color: aqua;
+}
+    </style>
 </head>
 <body>
+    <div class="c1">
+  
+        <input type="text"placeholder="enter your city" class="city">
+    </div>
+    
     <script>
-        var a=10
-        console.log(a)
+        let inp=document.querySelector(".city")
+        let citys="userChoice"
+        let url=(`https://api.openweathermap.org/data/2.5/weather?q=${citys}&appid={27f77281018375626e7dc48330674bf1}`);
+        
+let getWeather = async () => {
+    console.log("getting data")
+let response = await fetch(url);
+console.log(response);
+let data=await response.json();
+console.log(data)
+}
     </script>
 </body>
 </html>
